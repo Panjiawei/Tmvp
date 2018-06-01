@@ -17,7 +17,7 @@ public class LoginActivity extends BaseActivity<LoginPresenter, LoginModel> impl
     private EditText username;
     private EditText password;
     private Button login;
-
+    
     @Override
     protected int getLayoutResID() {
         return R.layout.activity_login;
